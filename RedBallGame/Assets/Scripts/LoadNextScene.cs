@@ -18,7 +18,7 @@ public class LoadNextScene : MonoBehaviour
         {
             //collisionDetected = true;
             //timer = delay;
-            Invoke("DelayTime", 2f);
+            Invoke("DelayTime", delay);
         }
     }
    
