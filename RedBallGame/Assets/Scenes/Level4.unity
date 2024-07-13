@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 112061108}
   - component: {fileID: 112061109}
   - component: {fileID: 112061110}
+  - component: {fileID: 112061111}
   m_Layer: 0
   m_Name: Triangle (5)
   m_TagString: Untagged
@@ -249,6 +250,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba1b14aff2c7434cbe902e379a4bb94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &112061111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112061106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87cfa0ea1fae9cb42b9b882740e6c170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  delay: 0
+  nextScene: Level1
 --- !u!1 &136646185
 GameObject:
   m_ObjectHideFlags: 0
@@ -374,6 +390,7 @@ GameObject:
   - component: {fileID: 141754984}
   - component: {fileID: 141754986}
   - component: {fileID: 141754985}
+  - component: {fileID: 141754987}
   m_Layer: 0
   m_Name: Triangle
   m_TagString: Untagged
@@ -528,6 +545,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba1b14aff2c7434cbe902e379a4bb94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &141754987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141754979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87cfa0ea1fae9cb42b9b882740e6c170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  delay: 0
+  nextScene: Level1
 --- !u!1 &184847492
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,6 +572,7 @@ GameObject:
   - component: {fileID: 184847494}
   - component: {fileID: 184847495}
   - component: {fileID: 184847496}
+  - component: {fileID: 184847497}
   m_Layer: 0
   m_Name: Triangle (7)
   m_TagString: Untagged
@@ -654,6 +687,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba1b14aff2c7434cbe902e379a4bb94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &184847497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184847492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87cfa0ea1fae9cb42b9b882740e6c170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  delay: 0
+  nextScene: Level1
 --- !u!1 &375222161
 GameObject:
   m_ObjectHideFlags: 0
@@ -701,6 +749,7 @@ GameObject:
   - component: {fileID: 481115917}
   - component: {fileID: 481115918}
   - component: {fileID: 481115919}
+  - component: {fileID: 481115920}
   m_Layer: 0
   m_Name: Triangle (6)
   m_TagString: Untagged
@@ -815,6 +864,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba1b14aff2c7434cbe902e379a4bb94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &481115920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481115915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87cfa0ea1fae9cb42b9b882740e6c170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  delay: 0
+  nextScene: Level1
 --- !u!1 &543073807
 GameObject:
   m_ObjectHideFlags: 0
@@ -827,6 +891,7 @@ GameObject:
   - component: {fileID: 543073809}
   - component: {fileID: 543073810}
   - component: {fileID: 543073811}
+  - component: {fileID: 543073812}
   m_Layer: 0
   m_Name: Triangle (4)
   m_TagString: Untagged
@@ -941,6 +1006,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba1b14aff2c7434cbe902e379a4bb94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &543073812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543073807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87cfa0ea1fae9cb42b9b882740e6c170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  delay: 0
+  nextScene: Level1
 --- !u!1 &788986029
 GameObject:
   m_ObjectHideFlags: 0
@@ -1063,6 +1143,7 @@ GameObject:
   - component: {fileID: 827544482}
   - component: {fileID: 827544481}
   - component: {fileID: 827544480}
+  - component: {fileID: 827544483}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1136,6 +1217,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &827544483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827544479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87cfa0ea1fae9cb42b9b882740e6c170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  delay: 0
+  nextScene: Level1
 --- !u!1 &889784472
 GameObject:
   m_ObjectHideFlags: 0
@@ -1409,6 +1505,7 @@ GameObject:
   - component: {fileID: 1768192468}
   - component: {fileID: 1768192470}
   - component: {fileID: 1768192471}
+  - component: {fileID: 1768192472}
   m_Layer: 0
   m_Name: Triangle (1)
   m_TagString: Untagged
@@ -1523,6 +1620,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba1b14aff2c7434cbe902e379a4bb94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1768192472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768192466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87cfa0ea1fae9cb42b9b882740e6c170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  delay: 0
+  nextScene: Level1
 --- !u!1 &1783496590
 GameObject:
   m_ObjectHideFlags: 0
@@ -1663,7 +1775,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTag: Player
   delay: 2
-  nextScene: Level1
+  nextScene: Level5
 --- !u!1 &1899967688
 GameObject:
   m_ObjectHideFlags: 0
@@ -1677,6 +1789,7 @@ GameObject:
   - component: {fileID: 1899967692}
   - component: {fileID: 1899967693}
   - component: {fileID: 1899967694}
+  - component: {fileID: 1899967695}
   m_Layer: 0
   m_Name: Triangle (2)
   m_TagString: Untagged
@@ -1803,6 +1916,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba1b14aff2c7434cbe902e379a4bb94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1899967695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899967688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87cfa0ea1fae9cb42b9b882740e6c170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  delay: 0
+  nextScene: Level1
 --- !u!1 &1925345316
 GameObject:
   m_ObjectHideFlags: 0
@@ -1817,6 +1945,7 @@ GameObject:
   - component: {fileID: 1925345321}
   - component: {fileID: 1925345323}
   - component: {fileID: 1925345322}
+  - component: {fileID: 1925345324}
   m_Layer: 0
   m_Name: Triangle (3)
   m_TagString: Untagged
@@ -1955,6 +2084,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba1b14aff2c7434cbe902e379a4bb94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1925345324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925345316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87cfa0ea1fae9cb42b9b882740e6c170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  delay: 0
+  nextScene: Level1
 --- !u!1 &2056521267
 GameObject:
   m_ObjectHideFlags: 0
