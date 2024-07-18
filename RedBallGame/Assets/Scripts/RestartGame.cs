@@ -26,6 +26,10 @@ public class RestartGame : MonoBehaviour
     void DelayTime()
     {
 
+        if(nextScene == "exit")
+        { 
+            Application.Quit();
+        }
         SceneManager.LoadScene(nextScene);
 
     }
