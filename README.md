@@ -1,2 +1,2 @@
 # red-ball-game
-A Demo game to acquire programming, design and development skills
+A Demo game for acquiring programming, design and development skills
