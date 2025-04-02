@@ -22,13 +22,7 @@ public class RestartGame : MonoBehaviour
         }
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            DelayTime();
-        }
-    }
+   
 
 
     void DelayTime()
@@ -38,7 +32,13 @@ public class RestartGame : MonoBehaviour
         {
             Application.Quit();
         }
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+        else 
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+            
+       
 
     }
 }
