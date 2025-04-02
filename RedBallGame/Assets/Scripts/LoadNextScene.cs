@@ -21,12 +21,24 @@ public class LoadNextScene : MonoBehaviour
             Invoke("DelayTime", delay);
         }
     }
-   
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            ReloadScene();
+        }
+    }
 
     void DelayTime()
     {
 
         SceneManager.LoadScene(nextScene);
 
+    }
+
+    void ReloadScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

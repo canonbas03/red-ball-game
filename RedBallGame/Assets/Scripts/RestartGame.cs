@@ -21,16 +21,24 @@ public class RestartGame : MonoBehaviour
             Invoke("DelayTime", delay);
         }
     }
-   
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            DelayTime();
+        }
+    }
+
 
     void DelayTime()
     {
 
-        if(nextScene == "exit")
-        { 
+        if (nextScene == "exit")
+        {
             Application.Quit();
         }
-        SceneManager.LoadScene(nextScene);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
     }
 }
